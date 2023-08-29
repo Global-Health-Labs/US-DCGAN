@@ -3,8 +3,8 @@
 *Official repository for the MICCAI 2023 SASHIMI Workshop paper: How Good Are Synthetic Medical Images? An Empirical Study with Lung Ultrasound* <br> <br>
 [MICCAI 2023 SASHIMI](https://2023.sashimi-workshop.org/) | [Conference Paper]() | [Arxiv Paper]() (TBD)
 
-Full pipeline from generate sythetic images using DC-GAN, evaluation and test on downstream tasks. We provide a built-in docker image based on nvcr.io/nvidia/tensorflow:21.12-tf1-py3.
-This docker image will install all the packages needed to run the scipts.
+Full pipeline from generating sythetic images using DC-GAN, evaluation/validation plots, and using synthetic images to train and test a downstream tasks. We provide a built-in docker image based on nvcr.io/nvidia/tensorflow:21.12-tf1-py3.
+This docker image will install all the packages needed to run the scripts. 
 
 ## Getting Started
 ### Environment
@@ -29,15 +29,15 @@ docker attach gan_paper_test_1
 cd code
 ```
 
-### Start training GAN
+### Start training DC-GAN
 ```bash
 python3 GAN/train_dcgan.py --dataroot <path_to_data> --niter 25 --cuda --nc 1 --loggerName training.log --workers 16 --ngpu 1 
 ```
 
 for path_to_data, the data path should have following structure as defined in:
 http://pytorch.org/vision/main/generated/torchvision.datasets.ImageFolder.html 
-example:
-root/dog/xxx.png 
+
+example: root/dog/xxx.png 
 
 DCGAN does not require label information or multiple class, but ImageFolder class would require the folder structure above to generate dataset.
 
