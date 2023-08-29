@@ -1,0 +1,17 @@
+.DS_Store
+data/
+output/
+results/
+build/
+dist/
+logs/
+*.png
+torch.egg-info/
+*/**/__pycache__
+*/*.pyc
+*/**/*.pyc
+*/**/**/*.pyc
+*/**/**/**/*.pyc
+*/**/**/**/**/*.pyc
+*/.ipynb_checkpoints/
+.ipynb_checkpoints/

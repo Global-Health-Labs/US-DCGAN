@@ -1,0 +1,20 @@
+services:
+  test:
+    build: .
+    ports:
+      - 7388:8888
+    volumes: 
+      - ./:/workspace/code/
+      - /mnt/:/workspace/data/
+    tty: true 
+    stdin_open: true
+    shm_size: 96GB
+    deploy:
+      resources:
+        reservations:
+          cpus: '96'
+          memory: 96G
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
