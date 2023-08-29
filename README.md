@@ -23,9 +23,10 @@ docker-compose version 1.29.2, build 5becea4c
 
 ### Clone the repo and launch docker container:
 ```bash
-git clone https://github.com/Global-Health-Labs/GAN_paper.git # change this line to the final name
+git clone https://github.com/Global-Health-Labs/US-DCGAN.git
+cd US-DCGAN
 docker-compose up
-docker attach gan_paper_test_1
+docker attach us-dcgan_test_1
 cd code
 ```
 
