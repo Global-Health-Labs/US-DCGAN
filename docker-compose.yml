@@ -5,7 +5,7 @@ services:
       - 7388:8888
     volumes: 
       - ./:/workspace/code/
-      - /mnt/:/workspace/data/
+      - /mnt/:/workspace/data/ # optional: modify this file to mount your own data path
     tty: true 
     stdin_open: true
     shm_size: 96GB
