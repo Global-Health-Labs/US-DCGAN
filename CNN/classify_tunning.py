@@ -5,7 +5,10 @@ Architecture Type is VGG style.
 Best with Python3 and TensorFlow 1.15
 Run this command from the base directory :
 $python3 --train_pos_dir <path_to_positive_train_data> --train_neg_dir <path_to_negative_train_data> --val_pos_dir <path_to_positive_validation_data> --val_neg_dir <path_to_negative_validation_data>
+
 Copyright (c) 2023 Global Health Labs, Inc
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 """
 import os
 import time

@@ -1,6 +1,8 @@
 """
 Define DCGAN model architecture
 Copyright (c) 2023 Global Health Labs, Inc
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 """
 from __future__ import print_function
 import argparse

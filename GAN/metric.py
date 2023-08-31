@@ -2,6 +2,8 @@
 Define sampled based evaluation metrics.
 This source code file is inspired by: https://github.com/xuqiantong/GAN-Metrics
 Copyright (c) 2023 Global Health Labs, Inc
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 """
 
 

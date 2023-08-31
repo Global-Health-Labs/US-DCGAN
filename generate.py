@@ -1,6 +1,8 @@
 """
 Generate synthetic images using a pre-trained DCGAN model.
 Copyright (c) 2023 Global Health Labs, Inc
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 """
 import math
 import os

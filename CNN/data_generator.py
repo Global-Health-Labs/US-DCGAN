@@ -1,6 +1,9 @@
 """
 DataGenerator supplies data to fit method of keras models.
+
 Copyright (c) 2023 Global Health Labs, Inc
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 """
 import tensorflow.keras as keras
 import numpy as np

@@ -3,6 +3,8 @@ Train a Deep Convolutional Generative Adversarial Networks.
 To run an example configuration, use this command from the base directory:
 $python3 GAN/train_dcgan.py --dataroot <path_to_data> --niter 25 --cuda --loggerName training.log
 Copyright (c) 2023 Global Health Labs, Inc
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 """
 
 from __future__ import print_function

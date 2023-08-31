@@ -1,6 +1,9 @@
 """
 Provide feature confidence score using a pre-trained binary classifier
+
 Copyright (c) 2023 Global Health Labs, Inc
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 """
 import os
 import time

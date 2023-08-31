@@ -1,6 +1,8 @@
 """
 Prepare dataset for GAN training
 Copyright (c) 2023 Global Health Labs, Inc
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 """
 import torchvision.datasets as dset
 import torchvision.transforms as transforms
