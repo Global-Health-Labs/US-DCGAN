@@ -1,7 +1,7 @@
 # How Good Are Synthetic Medical Images? An Empirical Study with Lung Ultrasound
 
 *Official repository for the MICCAI 2023 SASHIMI Workshop paper: How Good Are Synthetic Medical Images? An Empirical Study with Lung Ultrasound* <br> <br>
-[MICCAI 2023 SASHIMI](https://2023.sashimi-workshop.org/) | [Conference Paper]() | [Arxiv Paper]() (TBD)
+[MICCAI 2023 SASHIMI](https://2023.sashimi-workshop.org/) | [Conference Paper](https://link.springer.com/chapter/10.1007/978-3-031-44689-4_8) | [Arxiv Paper](https://arxiv.org/abs/2310.03608) 
 
 Full pipeline from generating sythetic images using DC-GAN, evaluation/validation plots, and using synthetic images to train and test a downstream tasks. We provide a built-in docker image based on nvcr.io/nvidia/tensorflow:21.12-tf1-py3. [(Requirements: see base image details.)](https://docs.nvidia.com/deeplearning/frameworks/tensorflow-release-notes/rel_21-12.html)
 This docker image will install all the packages needed to run the scripts. 
