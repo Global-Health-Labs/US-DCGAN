@@ -3,7 +3,7 @@
 *Official repository for the MICCAI 2023 SASHIMI Workshop paper: How Good Are Synthetic Medical Images? An Empirical Study with Lung Ultrasound* <br> <br>
 [MICCAI 2023 SASHIMI](https://2023.sashimi-workshop.org/) | [Conference Paper]() | [Arxiv Paper]() (TBD)
 
-Full pipeline from generating sythetic images using DC-GAN, evaluation/validation plots, and using synthetic images to train and test a downstream tasks. We provide a built-in docker image based on nvcr.io/nvidia/tensorflow:21.12-tf1-py3. [(Requirements: see base image details.)](https://docs.nvidia.com/deeplearning/frameworks/tensorflow-release-notes/rel_21-12.html)
+Full pipeline from generating synthetic images using DC-GAN, evaluation/validation plots, and using synthetic images to train and test a downstream tasks. We provide a built-in docker image based on nvcr.io/nvidia/tensorflow:21.12-tf1-py3. [(Requirements: see base image details.)](https://docs.nvidia.com/deeplearning/frameworks/tensorflow-release-notes/rel_21-12.html)
 This docker image will install all the packages needed to run the scripts. 
 
 ## Getting Started
@@ -52,7 +52,7 @@ For quantitive evaluation: check the following jupyter notebook, it will generat
 evalutation_plot.ipynb
 ```
 
-### Generate sythetic GAN image
+### Generate synthetic GAN image
 ```bash
 python3 generate.py --model_path <path_to_GAN_model> --size 2000 --save_path <path to save generated images>
 ```
