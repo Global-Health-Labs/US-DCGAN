@@ -74,11 +74,14 @@ evaluate_classifier.ipynb
 ## Citation (TBD)
 Placeholder, will release information after publication
 ```
-@article{yug2023usdcgan,
-  title={{Placeholder}: How Good Are Synthetic Medical Images? An Empirical Study with Lung Ultrasound},
-  author={Placeholders},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2023}
+@inproceedings{yu2023good,
+  title={How Good Are Synthetic Medical Images? An Empirical Study with Lung Ultrasound},
+  author={Yu, Menghan and Kulhare, Sourabh and Mehanian, Courosh and Delahunt, Charles B and Shea, Daniel E and Laverriere, Zohreh and Shah, Ishan and Horning, Matthew P},
+  booktitle={Simulation and Synthesis in Medical Imaging: 8th International Workshop, SASHIMI 2023, Held in Conjunction with MICCAI 2023, Vancouver, BC, Canada, October 8, 2023, Proceedings},
+  volume={14288},
+  pages={75},
+  year={2023},
+  organization={Springer Nature}
 }
 ```
 
